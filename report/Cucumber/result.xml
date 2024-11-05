@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.631" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="GoogleForm" name="login  should be success and failed - #1.1" time="7.5">
+<system-out><![CDATA[
+Given : user should enter "standard_user" and "secret_sauce"................passed
+When : user click the login button..........................................passed
+Then : user should be success or failed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GoogleForm" name="login  should be success and failed - #1.2" time="6.853">
+<system-out><![CDATA[
+Given : user should enter "secrertyu" and "!234567".........................passed
+When : user click the login button..........................................passed
+Then : user should be success or failed.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
